@@ -1,2 +1,2 @@
 # University_PP
-Procedural programing course in Vilnius University
+Procedural programing course at Vilnius University
