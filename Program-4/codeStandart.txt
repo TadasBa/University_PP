@@ -1,0 +1,70 @@
+KODAVIMO STANDARTAS
+
+AUTORIUS: Tadas Baltrūnas.
+KODAVIMO KALBA: C, C++.
+METAI: 2021.
+
+1. RIESTINIŲ SKLIAUSTŲ LYGIAVIMAS:
+
+1.1 Inicializavus funkciją, struktūrą, riestiniai skliaustai dedami naujoje
+eilutėje, ne toje pačioje kaip funkcija, neatitraukiant nuo krašto.
+1.2 Aprašius salygos sakinių, ciklų salygas, riestiniai skliaustai
+naudojami visą laiką ir dedami naujoje eilutėje.
+
+2. KOMENTAVIMO TAISYKLĖS:
+
+2.1 Programos autoriaus vardas, pavardė bei kiti norimi nurodyti
+dalykai susiją su programa, jos autoriumi nurodomi pačioje kodo pradžioje 
+naudojant komentavimo simbolius "///". Pvz "///NAME: Tadas Baltrūnas". 
+2.2 Komentuojant kodo bloką, naudojamai simboliai "/* TEXT */". Tarp komentavimo 
+simbolių tekstas užrašomas didžiosiomis raidėmis.
+2.3 Komentuojant vieną, tam tikrą kodo eilutę naudojami simboliai "// TEXT".
+Komentavimo tekstas užrašomas didžiosiomis raidėmis. 
+
+3. VARTOTOJO SĄSAJOS, KALBOS TAISYKLĖS:
+
+3.1 Visa vartotojo sąsaja - komentarai, programos komucikaciniai sakiniai
+su vartotoju, yra užrašomi anglų kalba. 
+3.2 Spausdinant ekrane tarp eilučių paliekamas tarpas, jeigu tai nėra sąrašas\turinys. 
+3.3 Norint spausdinant į ekraną išskirti tam tikrą teksto dalį galima palikti daugiau
+tarpų arba spausdinti eilę taškų (.) simbolių virš teksto ir po tekstu.
+3.4 Vartotojo prašant įvesti duomenis atspausdinama prašymo eilutė su dvitaškio simboliu ir
+tarpu pabaigoje.
+
+4. PROGRAMOS ELEMENTŲ VARDŲ APRAŠYMO TAISYKLĖS:
+
+4.1 Failų, funkcijų, kintamųjų, masyvų vardai, jeigu nėra papildomų
+programos reikalavimų aprašomi mažosiomis raidėmis - jeigu pavadinimas
+susideda iš vieno žodžio. Jeigu pavadinimas susideda iš kelių žodžių pirmas
+žodis rašomas iš mažosios raidės, sekantys žodžiai, nepaliekant tarpo,
+rašomi iš didžiųjų raidžių.
+4.2 Konstantų vardai, jeigu nėra papildomų programos reikalavimų, aprašomi
+didžiosiomis raidėmis.
+4.3 Funkcija main aprašoma pačioje kodo apačioje.
+
+5. KODO LYGIAVIMO, ATSKYRIMO TAISYKLĖS:
+
+5.1 Funkcijų inicializavimo, ne funkcijos viduje esantys sakiniai yra
+lygiuojami neatitiraukiant nuo krašto. 
+5.2 Funkcijų viduje esanty sakiniai yra lygiuojami atiraukiant vienu
+TAB'u (4 tarpo simboliais) nuo krašto.
+5.3 Ciklų, salygos sakinių viduje esantys sakiniai yra lygiuojami atitraukiat vienu
+TAB'u jei tai pirmas lygis, dviem TAB'ais jeigu tai antras lygis ir t.t.
+5.4 Visos kodo eilutės viena nuo kitos atskiriamos viena tuščia eilute. Išimtys
+nudojamos jeigu rašant kitaip yra padidinamas kodo skaitomumas.
+5.5 Jeigu kodo eilutė netelpa ekrano ribose tuomet nepamirštant kitų taisyklių
+netelpantis kodas yra perkeliamas į naują eilutę.
+5.6 Operatoriai yra atskiriami vienu tarpo simboliu. Išimtys
+naudojamos jeigu rašant kitaip yra padidinamas kodo skaitomumas.
+5.7 Funkcijos, struktūros norimos išskirti kodo dalys, atskiriamos viena nuo kitos tarp jų
+parašius simbolių linija - "//---------------------------------".
+5.8 Aprašant kintamuosius, kintamųjų reikšmės ligiuojamos pagal ilgiausio kintamojo tipą,
+pvz( long long int x;
+     char          y = "a";)
+
+6. IŠIMČIŲ TAISYKLĖS:
+
+6.1 Kodo rašymo taisyklių galima nesilaikyti jeigu programuotojas mato, kad 
+taip padidins kodo skaitomumą, to reikalauja programos sąlygos.
+6.2 Neradūs tam tikrai situacijai reikalingos kodo rašymo taisyklės,
+programuotojas rašo taip kaip jo nuomone yra geriausia toje situacijoje.
